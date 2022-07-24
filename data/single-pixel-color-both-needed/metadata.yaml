@@ -1,0 +1,9 @@
+name: single-pixel-color-both-needed
+color_interior: True
+eval_only: True
+context_type: both
+# shape_color_typicality:
+#   circle: 
+#     color: red
+#     prob: 0.9
+#   uniform_over_shapes: True

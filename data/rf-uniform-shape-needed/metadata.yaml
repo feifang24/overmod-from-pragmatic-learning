@@ -1,0 +1,8 @@
+name: rf-uniform-shape-needed
+eval_only: True
+context_type: shape
+# shape_color_typicality:
+#   circle: 
+#     color: red
+#     prob: 0.9
+#   uniform_over_shapes: True

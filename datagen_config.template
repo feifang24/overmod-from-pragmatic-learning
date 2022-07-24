@@ -1,0 +1,18 @@
+# Usage:
+# name: str; dataset folder name
+# eval_only: bool, default to false; if set to true, the dataset size will be 5k instead of 75k
+# visualize: bool, default to false; if set to true, a small dataset of size 1k will be generated for the purpose of visualization
+# context_type: str; one of `shape`, `color`, `either`, `both`, 
+#                    corresponding to the shape-needed, color-needed, either-okay, both-needed conditions, respectively
+# shape_color_typicality: dict; each key corresponds to a shape, and value is a dict specifying color and probability of said color occurring.
+#                               assume uniform probability among colors that don't appear in the dict.
+# color_interior: bool, default to false; if set to true, then only one pixel within the shape is colored with the associated color,
+#                                         while the remaining pixels are colored purple
+
+name: typicality-unishape-either-okay 
+eval_only: True
+context_type: either
+shape_color_typicality:
+  circle: 
+    color: red
+    prob: 0.9
